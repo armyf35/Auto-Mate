@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "vite preview --host --port 80",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -15,6 +16,7 @@
     "coverage": "vitest run src/tests --coverage"
   },
   "dependencies": {
+    "axios": "^1.6.1",
     "firebase": "^10.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
